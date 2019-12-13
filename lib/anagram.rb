@@ -1,20 +1,27 @@
 class Check
+
   def anagram?(word1, word2)
     vowels = ["a", "e", "i", "o", "u", "y"]
     first = word1.downcase.split("")
     second = word2.downcase.split("")
-    vowel_check = (vowels - first)
-    if first.length != second.length
-      false
-    elsif first.sort === second.sort
-      puts vowel_check
-      if vowel_check != vowels
-        true
+    vowel1_check = (vowels - first)
+    vowel2_check = (vowels - second)
+    antigram_check = (first - second)
+    if first.sort === second.sort
+      if vowel1_check != vowels
+        anagram = true
       else
-        false
+        anagram = false
       end
     else
-      TYPE SOMETHING HERE
+      puts antigram_check
+      if antigram_check === first
+        antigram = true
+      else
+        anagram = false
+      end
     end
+    
   end
+
 end
