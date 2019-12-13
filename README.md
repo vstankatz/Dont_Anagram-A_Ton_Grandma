@@ -1,4 +1,4 @@
-# _Anagram and Antigram_
+# _Don't Anagram a ton Grandma_
 
 #### _Creating an Anagram and Antigram Word Comparison Program for Epicodus, 12/13/2019_
 
@@ -20,9 +20,9 @@ _This program was designed to allow someone to type two words or phrases and see
 
 ## Setup-Installation Requirements
 
-* _Go to https://vstankatz.github.io/Language-Selector/ <_
+* _Go to https://github.com/vstankatz/Dont_Anagram-A_Ton_Grandma_
 * _Clone the GitHub repository._
-* _In your terminal/command line run the following in order:_
+* _In your terminal/command line go into the folder that was cloned and run the following in order:_
       1. "bundle install"
       2. "chmod +x interface.rb"
       3. "./interface.rb"
@@ -30,7 +30,7 @@ _This program was designed to allow someone to type two words or phrases and see
 * _The terminal will then display the result of the anagram and antigram comparison, if you'd like to try again press "y" and repeat, if finished press "n"._
 
 ## Known Bugs
-_If running on a windows machine and using GitBash the terminal will not display the prompts properly, instead use GitBash to do everything including running "chmod +x interface.rb", then open the same file with windows Command Prompt to run "./interface.rb"._
+_If running on a windows machine and using GitBash the terminal will not display the prompts properly, instead use GitBash to do everything including running "chmod +x interface.rb", then open the same file with windows Command Prompt to run "interface.rb"._
 
 ## Technologies Suggested
 * _Ruby 2.5.1_
