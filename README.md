@@ -8,6 +8,16 @@
 
 _This program was designed to allow someone to type two words or phrases and see if they are anagrams or antigrams._
 
+## Specs
+
+|Specs|Input|Output|
+|-|-|-|
+|The program should take in two words for comparison.| "dog" "god"| "dog and god are anagrams" |
+|The program should change the casing of words to be uniform.|"TeA" "eAT"|"tea and eat are anagrams"|
+|The program should check to see if both words contain vowels, and if not tell the user that real words were not entered.|"glfh" "ghlf"|"You need to enter actual words!"|
+|The program should check if the two words are antigrams if they are not anagrams.| "Bear" "Dog" |"bear and dog have no letter matches and are antigrams"|
+|The program should allow users to compare multiple words| "I am Lord Voldemort" "Tom Marvolo Riddle"|"i am lord voldemort and tom marvolo riddle are anagrams"|
+
 ## Setup-Installation Requirements
 
 * _Go to https://vstankatz.github.io/Language-Selector/ <_
