@@ -12,4 +12,9 @@ describe('#anagram?') do
     check = Check.new()
   expect(check.anagram?("StaRt", "TArTs")).to(eq(true))
   end
+
+  it('should return false if the words fo not include vowels') do
+    check = Check.new()
+  expect(check.anagram?("ghb", "bgh")).to(eq(false))
+  end
 end
