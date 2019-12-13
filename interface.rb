@@ -11,9 +11,9 @@ while(resume)
   word1 = gets.chomp
   puts("\n Please enter the second word or phrase")
   word2 = gets.chomp
-  check = Check.new()
+  check = Check.new(word1, word2)
   puts(" ")
-  puts(check.anagram?(word1, word2))
+  puts(check.anagram?())
 
 puts("\n Would you like to try another word combination? Y/N")
   do_resume = gets.chomp
