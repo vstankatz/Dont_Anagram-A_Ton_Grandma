@@ -22,4 +22,9 @@ describe('#anagram?') do
     check = Check.new()
   expect(check.anagram?("bear", "dog")).to(eq(true))
   end
+
+  it('should see if multiple words or phrases are anagrams or antigrams') do
+    check = Check.new()
+  expect(check.anagram?("I am Lord Voldemort", "Tom Marvolo Riddle")).to(eq(true))
+  end
 end
