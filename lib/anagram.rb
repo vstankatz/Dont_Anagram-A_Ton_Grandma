@@ -2,8 +2,10 @@ class Check
 
   def anagram?(word1, word2)
     vowels = ["a", "e", "i", "o", "u", "y"]
-    first = word1.downcase.split("")
-    second = word2.downcase.split("")
+    regex_word1 = word1.gsub(/[^A-Za-z]/, "")
+    regex_word2 = word2.gsub(/[^A-Za-z]/, "")
+    first = regex_word1.downcase.split("")
+    second = regex_word2.downcase.split("")
     vowel1_check = (vowels - first)
     vowel2_check = (vowels - second)
     antigram_check = (first - second)
@@ -21,7 +23,7 @@ class Check
         anagram = false
       end
     end
-    
+
   end
 
 end
