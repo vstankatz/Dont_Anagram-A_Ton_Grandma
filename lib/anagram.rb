@@ -1,4 +1,5 @@
 class Check
+  attr_accessor(:word1, :word2)
 
   def initialize(word1, word2)
     @word1 = word1
@@ -32,5 +33,6 @@ class Check
         return "#{@word1} and #{@word2} are not anagrams."
       end
     end
+
   end
 end
