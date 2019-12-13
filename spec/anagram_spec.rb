@@ -13,7 +13,7 @@ describe('#anagram?') do
   expect(check.anagram?("StaRt", "TArTs")).to(eq("StaRt and TArTs are anagrams!"))
   end
 
-  it('should return false if the words fo not include vowels') do
+  it('should return false if the anagram does not include vowels') do
     check = Check.new()
   expect(check.anagram?("ghb", "bgh")).to(eq("ghb and bgh are not words, please enter real words."))
   end
@@ -21,6 +21,11 @@ describe('#anagram?') do
   it('should see if words are antigrams if they share no letters in common') do
     check = Check.new()
   expect(check.anagram?("bear", "dog")).to(eq("bear and dog are antigrams!"))
+  end
+
+  it('should return false if the antigram does not include vowels') do
+    check = Check.new()
+  expect(check.anagram?("dgrb", "snvk")).to(eq("dgrb and snvk are not words, please enter real words."))
   end
 
   it('should see if multiple words or phrases are anagrams or antigrams') do
