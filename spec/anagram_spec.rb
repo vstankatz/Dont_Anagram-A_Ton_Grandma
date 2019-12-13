@@ -17,4 +17,9 @@ describe('#anagram?') do
     check = Check.new()
   expect(check.anagram?("ghb", "bgh")).to(eq(false))
   end
+
+  it('should see if words are antigrams if they share no letters in common') do
+    check = Check.new()
+  expect(check.anagram?("bear", "dog")).to(eq(true))
+  end
 end
