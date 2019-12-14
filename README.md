@@ -1,6 +1,6 @@
 # _Don't Anagram a ton Grandma_
 
-#### _Creating an Anagram and Antigram Word Comparison Program for Epicodus, 12/13/2019_
+#### _Creating an Anagram and Antigram Word Comparison Program for Epicodus, 12/13/2019, Friday the 13th_
 
 #### By _**Veronica Stanley-Katz**_
 
