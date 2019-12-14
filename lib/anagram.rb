@@ -37,17 +37,27 @@ class Check
 
     def is_a_word?()
       letters = @word1.split("")
-      for i in letters do
-        puts i
-        j = letters.index(i)
-        puts j
-        if letters[j] === letters[j+1] && letters[j] === letters[j+2]
+      length = letters.length - 1
+      puts length
+      x = 0
+      letters.each_index do |letter|
+
+        if letters[x] === letters[x+1] && letters[x] === letters[x+2]
           return "three letters in a row"
-        else
-          return letters
         end
 
+        x += 1
+        puts x
+
+
       end
+
+      # for i in letters do
+      #   j = letters.index(i)
+      #   puts j
+      #   puts letters[j+1]
+      #
+      # end
     end
 
 end
