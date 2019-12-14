@@ -1,6 +1,6 @@
 # _Don't Anagram a ton Grandma_
 
-#### _Creating an Anagram and Antigram Word Comparison Program for Epicodus, 12/13/2019, Friday the 13th_
+##### _Creating an Anagram and Antigram Word Comparison Program for Epicodus, 12/13/2019, Friday the 13th_
 
 #### By _**Veronica Stanley-Katz**_
 
@@ -23,9 +23,9 @@ _This program was designed to allow someone to type two words or phrases and see
 * _Go to https://github.com/vstankatz/Dont_Anagram-A_Ton_Grandma_
 * _Clone the GitHub repository._
 * _In your terminal/command line go into the folder that was cloned and run the following in order:_
-      1. "bundle install"
-      2. "chmod +x interface.rb"
-      3. "./interface.rb"
+  >  1. "bundle install"
+  >  2. "chmod +x interface.rb"
+  >  3. "./interface.rb"
 * _Read the prompt printed on your terminal and enter your comparison words or phrases_
 * _The terminal will then display the result of the anagram and antigram comparison, if you'd like to try again press "y" and repeat, if finished press "n"._
 
