@@ -40,7 +40,7 @@ class Check
         return "#{@word1} and #{@word2} are not anagrams."
       end
     else
-        return "#{@word1} and #{@word2} are not words, please enter real words."
+      return "#{@word1} and #{@word2} are not words, please enter real words."
 
     end
   end
