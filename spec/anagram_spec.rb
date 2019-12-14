@@ -32,4 +32,10 @@ describe('#anagram?') do
     check = Check.new("I am Lord Voldemort", "Tom Marvolo Riddle")
   expect(check.anagram?()).to(eq("I am Lord Voldemort and Tom Marvolo Riddle are anagrams!"))
   end
+
+  it('should return false if three letters are the same in a row') do
+    check = Check.new("happydddgh", "eaggg")
+    expect(check.anagram?()).to(eq("happydddgh and eaggg are not words, please enter real words."))
+  end
+
 end
